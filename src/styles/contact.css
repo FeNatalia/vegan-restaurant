@@ -1,11 +1,16 @@
 .contact-hero{
+    margin-top: 80px;
     width: 100vw;
 }
 
 .contact{
+    width: 100vw;
     display: grid;
     justify-items: center;
+    align-items: center;
     background-color: var(--color-yellow);
+    margin: 0;
+    padding: 0;
 }
 
 .contact h1{
@@ -14,6 +19,7 @@
 
 .contact-content {
     display: grid;
+    justify-content: center;
     justify-items: center;
     text-align: center;
     align-items: center;

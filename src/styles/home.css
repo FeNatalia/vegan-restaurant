@@ -1,0 +1,30 @@
+.home-main{
+    background-image: url("../assets/pictures/home.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    opacity: 0.8;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.home-text{
+    padding: var(--space-small);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.home-main h1{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.home-main p{
+    text-align: center;
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
+}
