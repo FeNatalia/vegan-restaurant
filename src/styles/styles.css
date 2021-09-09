@@ -1,0 +1,7 @@
+@import "./variables.css";
+@import "./shared.css";
+
+@import "./home.css";
+@import "./nav.css";
+@import "./footer.css";
+@import "./contact.css";

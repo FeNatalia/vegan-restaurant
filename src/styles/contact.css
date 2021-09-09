@@ -1,0 +1,39 @@
+.contact-hero{
+    width: 100vw;
+}
+
+.contact{
+    display: grid;
+    justify-items: center;
+    background-color: var(--color-yellow);
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.contact-content {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+}
+
+.contact-map{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    max-width: 300px;
+}
+
+.contact-map img{
+    width: 300px;
+    height: auto;
+    margin-bottom: var(--space-medium);
+}
+
+.info section{
+    margin-bottom: var(--space-bigger);
+}

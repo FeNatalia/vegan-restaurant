@@ -1,7 +1,30 @@
+//NPM Package
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+//Project files
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Dishes from "./pages/Dishes";
+import Desserts from "./pages/Desserts";
+import Drinks from "./pages/Drinks";
+import Contact from "./pages/Contact";
+
+import "./styles/styles.css";
+
 export default function App() {
   return (
     <div className="App">
-      <h1>Vegan restaurant</h1>
+      <BrowserRouter>
+      <Navigation/>
+      <Switch>
+        <Route component={Home} path="/" exact/>
+        <Route component={Dishes} path="/dishes" />
+        <Route component={Desserts} path="/desserts"/>
+        <Route component={Drinks} path="/drinks"/>
+        <Route component={Contact} path="/contact"/>
+      </Switch>
+      <Footer/>
+      </BrowserRouter>
     </div>
   );
 }
