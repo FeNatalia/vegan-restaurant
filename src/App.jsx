@@ -11,21 +11,20 @@ import Contact from "./pages/Contact";
 import "./styles/styles.css";
 import Product from "./pages/Product";
 
-
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navigation/>
-      <Switch>
-        <Route component={Home} path="/" exact/>
-        <Route component={Dishes} path="/dishes" />
-        <Route component={Desserts} path="/desserts"/>
-        <Route component={Drinks} path="/drinks"/>
-        <Route component={Contact} path="/contact"/>
-        <Route exact path="/:id" component={Product}/>
-      </Switch>
-      <Footer/>
+        <Navigation />
+        <Switch>
+          <Route component={Home} path="/" exact />
+          <Route component={Dishes} path="/dishes" />
+          <Route component={Desserts} path="/desserts" />
+          <Route component={Drinks} path="/drinks" />
+          <Route component={Contact} path="/contact" />
+          <Route exact path="/:id" component={Product} />
+        </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );
