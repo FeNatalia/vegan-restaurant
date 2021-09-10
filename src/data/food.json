@@ -1,191 +1,317 @@
 [
-    {
-        "id": 1,
-        "title": "Sandwich",
-        "category": "dishes",
-        "photo": "sandwich.jpg",
-        "description": "Veggie sandwich on rye bred",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "145"},{"id": 2, "name": "fat", "amount": "7g"}, {"id": 3, "name":"cholesterol", "amount":"28mg"},{"id": 4, "name":"sodium", "amount": "356mg"},{"id": 5, "name":"protein", "amount": "8g"}]
-    },
-    {
-        "id": 2,
-        "title": "Noodles",
-        "category": "dishes",
-        "photo": "noodles.jpg",
-        "description": "Veggie noodles fried on wok",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "130"},{"id": 2, "name": "fat", "amount": "9g"}, {"id": 3, "name":"cholesterol", "amount":"21mg"},{"id": 4, "name":"sodium", "amount": "135mg"},{"id": 5, "name":"protein", "amount": "28g"}]
-    },
-    {
-        "id": 3,
-        "title": "Pizza",
-        "category": "dishes",
-        "photo": "pizza.jpg",
-        "description": "Veggie pizza on redbeet bottom",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "120"},{"id": 2, "name": "fat", "amount": "19g"}, {"id": 3, "name":"cholesterol", "amount":"20mg"},{"id": 4, "name":"sodium", "amount": "158mg"},{"id": 5, "name":"protein", "amount": "18g"}]
-    },
-    {
-        "id": 4,
-        "title": "Hummus",
-        "category": "dishes",
-        "photo": "hummus.jpg",
-        "description": "Fresh hummus with salad on it",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "300"},{"id": 2, "name": "fat", "amount": "29g"}, {"id": 3, "name":"cholesterol", "amount":"24mg"},{"id": 4, "name":"sodium", "amount": "89mg"},{"id": 5, "name":"protein", "amount": "28g"}]
-    },
-    {
-        "id": 5,
-        "title": "Mushroom soup",
-        "category": "dishes",
-        "photo": "mushroom.jpg",
-        "description": "Very smooth mushroom soup on oat cream",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "270"},{"id": 2, "name": "fat", "amount": "59g"}, {"id": 3, "name":"cholesterol", "amount":"25mg"},{"id": 4, "name":"sodium", "amount": "56mg"},{"id": 5, "name":"protein", "amount": "48g"}]
-    },
-    {
-        "id": 6,
-        "title": "Fried rice",
-        "category": "dishes",
-        "photo": "rice.jpg",
-        "description": "Fried rice with veggies and sesame oil",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "280"},{"id": 2, "name": "fat", "amount": "19g"}, {"id": 3, "name":"cholesterol", "amount":"27mg"},{"id": 4, "name":"sodium", "amount": "56mg"},{"id": 5, "name":"protein", "amount": "6g"}]
-    },
-    {
-        "id": 7,
-        "title": "Avocado toast",
-        "category": "dishes",
-        "photo": "toast.jpg",
-        "description": "Classic avocado toast with a twist: tomatoes and beans with olive oil on top",
-        "ingredients": ["salt","pepper","water","seeds"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "270"},{"id": 2, "name": "fat", "amount": "90g"}, {"id": 3, "name":"cholesterol", "amount":"28mg"},{"id": 4, "name":"sodium", "amount": "234mg"},{"id": 5, "name":"protein", "amount": "9g"}]
-    },
-    {
-        "id": 8,
-        "title": "Cake",
-        "category": "desserts",
-        "photo": "cake.jpg",
-        "description": "Chocolate cake for chocolate lovers",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "250"},{"id": 2, "name": "fat", "amount": "96g"}, {"id": 3, "name":"cholesterol", "amount":"29mg"},{"id": 4, "name":"sodium", "amount": "145mg"},{"id": 5, "name":"protein", "amount": "7g"}]
-    },
-    {
-        "id": 9,
-        "title": "Chia pudding",
-        "category": "desserts",
-        "photo": "chia.jpg",
-        "description": "Healthy chia pudding perfect for breakfast. Topped with yougurt and blackberries.",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "220"},{"id": 2, "name": "fat", "amount": "92g"}, {"id": 3, "name":"cholesterol", "amount":"24mg"},{"id": 4, "name":"sodium", "amount": "123mg"},{"id": 5, "name":"protein", "amount": "6g"}]
-    },
-    {
-        "id": 10,
-        "title": "Cranberry pie",
-        "category": "desserts",
-        "photo": "cranberry.jpg",
-        "description": "Forest cranberry pie with vanilla powder",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "190"},{"id": 2, "name": "fat", "amount": "89g"}, {"id": 3, "name":"cholesterol", "amount":"12mg"},{"id": 4, "name":"sodium", "amount": "367mg"},{"id": 5, "name":"protein", "amount": "5g"}]
-    },
-    {
-        "id": 11,
-        "title": "Ice-cream",
-        "category": "desserts",
-        "photo": "ice-cream.jpg",
-        "description": "House made ice-cream based on oat cream",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "180"},{"id": 2, "name": "fat", "amount": "79g"}, {"id": 3, "name":"cholesterol", "amount":"52mg"},{"id": 4, "name":"sodium", "amount": "345mg"},{"id": 5, "name":"protein", "amount": "6g"}]
-    },
-    {
-        "id": 12,
-        "title": "Pudding",
-        "category": "desserts",
-        "photo": "pudding.jpg",
-        "description": "A perfect pudding with fresh mangos on top",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "240"},{"id": 2, "name": "fat", "amount": "69g"}, {"id": 3, "name":"cholesterol", "amount":"67mg"},{"id": 4, "name":"sodium", "amount": "123mg"},{"id": 5, "name":"protein", "amount": "18g"}]
-    },
-    {
-        "id": 13,
-        "title": "Strawberry dessert",
-        "category": "desserts",
-        "photo": "strawberry.jpg",
-        "description": "It's never too many strawberries! We picked them in our backyard.",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "130"},{"id": 2, "name": "fat", "amount": "59g"}, {"id": 3, "name":"cholesterol", "amount":"54mg"},{"id": 4, "name":"sodium", "amount": "78mg"},{"id": 5, "name":"protein", "amount": "28g"}]
-    },
-    {
-        "id": 14,
-        "title": "Waffles",
-        "category": "desserts",
-        "photo": "waffles.jpg",
-        "description": "Every day is a waffle day! The waffle maker we use is our grandpa's, so it is even tastier! Fresh berries on top and our own honey.",
-        "ingredients": ["sugar","oats","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "210"},{"id": 2, "name": "fat", "amount": "69g"}, {"id": 3, "name":"cholesterol", "amount":"45mg"},{"id": 4, "name":"sodium", "amount": "56mg"},{"id": 5, "name":"protein", "amount": "5g"}]
-    },
-    {
-        "id": 15,
-        "title": "Berry Soda",
-        "category": "drinks",
-        "photo": "berry-soda.jpg",
-        "description": "Try our house soda with forest berries flavour on a hot summer day! You won't be dissappointed!",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "260"},{"id": 2, "name": "fat", "amount": "29g"}, {"id": 3, "name":"cholesterol", "amount":"26mg"},{"id": 4, "name":"sodium", "amount": "45mg"},{"id": 5, "name":"protein", "amount": "4g"}]
-    },
-    {
-        "id": 16,
-        "title": "Cocktail",
-        "category": "drinks",
-        "photo": "cocktail.jpg",
-        "description": "A fancy cocktail for an afternoon date - will make you look sophisticated, but it is also super tasty!",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "250"},{"id": 2, "name": "fat", "amount": "59g"}, {"id": 3, "name":"cholesterol", "amount":"28mg"},{"id": 4, "name":"sodium", "amount": "58mg"},{"id": 5, "name":"protein", "amount": "7g"}]
-    },
-    {
-        "id": 17,
-        "title": "Coffee",
-        "category": "drinks",
-        "photo": "coffee.jpg",
-        "description": "Homebrew coffee, served with ice and almond milk. Less acidic than average coffee.",
-        "ingredients": ["almond milk","ice","water","coffee"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "450"},{"id": 2, "name": "fat", "amount": "39g"}, {"id": 3, "name":"cholesterol", "amount":"29mg"},{"id": 4, "name":"sodium", "amount": "245mg"},{"id": 5, "name":"protein", "amount": "3g"}]
-    },
-    {
-        "id": 18,
-        "title": "Orange soda",
-        "category": "drinks",
-        "photo": "orange-soda.jpg",
-        "description": "House made soda with orange flavour to drink here or on the go. Can recycle the bottle later at any station and get back 1kr!",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "1300"},{"id": 2, "name": "fat", "amount": "29g"}, {"id": 3, "name":"cholesterol", "amount":"34mg"},{"id": 4, "name":"sodium", "amount": "456mg"},{"id": 5, "name":"protein", "amount": "5g"}]
-    },
-    {
-        "id": 19,
-        "title": "Smoothie",
-        "category": "drinks",
-        "photo": "smoothie.jpg",
-        "description": "A fresh and rich with berries smoothie helps with the digestion, your stomach will be happy!",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "1200"},{"id": 2, "name": "fat", "amount": "39g"}, {"id": 3, "name":"cholesterol", "amount":"35mg"},{"id": 4, "name":"sodium", "amount": "538mg"},{"id": 5, "name":"protein", "amount": "18g"}]
-    },
-    {
-        "id": 20,
-        "title": "Tea",
-        "category": "drinks",
-        "photo": "tea.jpg",
-        "description": "Choose between black or green, hot or cold! Because we are tea lovers and like it all year around.",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "400"},{"id": 2, "name": "fat", "amount": "19g"}, {"id": 3, "name":"cholesterol", "amount":"45mg"},{"id": 4, "name":"sodium", "amount": "355mg"},{"id": 5, "name":"protein", "amount": "6g"}]
-    },
-    {
-        "id": 21,
-        "title": "Watermelon drink",
-        "category": "drinks",
-        "photo": "watermelon.jpg",
-        "description": "Very refreshing drink after a long hot day. If you need to chill for real!",
-        "ingredients": ["sugar","ice","water","fruits"],
-        "nutrition":[{"id" : 1, "name":"calories", "amount": "300"},{"id": 2, "name": "fat", "amount": "29g"}, {"id": 3, "name":"cholesterol", "amount":"27mg"},{"id": 4, "name":"sodium", "amount": "63mg"},{"id": 5, "name":"protein", "amount": "10g"}]
-    }
+  {
+    "id": 1,
+    "title": "Sandwich",
+    "category": "dishes",
+    "photo": "sandwich.jpg",
+    "description": "Veggie sandwich on rye bred",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "145" },
+      { "id": 2, "name": "fat", "amount": "7g" },
+      { "id": 3, "name": "cholesterol", "amount": "28mg" },
+      { "id": 4, "name": "sodium", "amount": "356mg" },
+      { "id": 5, "name": "protein", "amount": "8g" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Noodles",
+    "category": "dishes",
+    "photo": "noodles.jpg",
+    "description": "Veggie noodles fried on wok",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "130" },
+      { "id": 2, "name": "fat", "amount": "9g" },
+      { "id": 3, "name": "cholesterol", "amount": "21mg" },
+      { "id": 4, "name": "sodium", "amount": "135mg" },
+      { "id": 5, "name": "protein", "amount": "28g" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Pizza",
+    "category": "dishes",
+    "photo": "pizza.jpg",
+    "description": "Veggie pizza on redbeet bottom",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "120" },
+      { "id": 2, "name": "fat", "amount": "19g" },
+      { "id": 3, "name": "cholesterol", "amount": "20mg" },
+      { "id": 4, "name": "sodium", "amount": "158mg" },
+      { "id": 5, "name": "protein", "amount": "18g" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hummus",
+    "category": "dishes",
+    "photo": "hummus.jpg",
+    "description": "Fresh hummus with salad on it",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "300" },
+      { "id": 2, "name": "fat", "amount": "29g" },
+      { "id": 3, "name": "cholesterol", "amount": "24mg" },
+      { "id": 4, "name": "sodium", "amount": "89mg" },
+      { "id": 5, "name": "protein", "amount": "28g" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mushroom soup",
+    "category": "dishes",
+    "photo": "mushroom.jpg",
+    "description": "Very smooth mushroom soup on oat cream",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "270" },
+      { "id": 2, "name": "fat", "amount": "59g" },
+      { "id": 3, "name": "cholesterol", "amount": "25mg" },
+      { "id": 4, "name": "sodium", "amount": "56mg" },
+      { "id": 5, "name": "protein", "amount": "48g" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Fried rice",
+    "category": "dishes",
+    "photo": "rice.jpg",
+    "description": "Fried rice with veggies and sesame oil",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "280" },
+      { "id": 2, "name": "fat", "amount": "19g" },
+      { "id": 3, "name": "cholesterol", "amount": "27mg" },
+      { "id": 4, "name": "sodium", "amount": "56mg" },
+      { "id": 5, "name": "protein", "amount": "6g" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Avocado toast",
+    "category": "dishes",
+    "photo": "toast.jpg",
+    "description": "Classic avocado toast with a twist: tomatoes and beans with olive oil on top",
+    "ingredients": ["salt", "pepper", "water", "seeds"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "270" },
+      { "id": 2, "name": "fat", "amount": "90g" },
+      { "id": 3, "name": "cholesterol", "amount": "28mg" },
+      { "id": 4, "name": "sodium", "amount": "234mg" },
+      { "id": 5, "name": "protein", "amount": "9g" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cake",
+    "category": "desserts",
+    "photo": "cake.jpg",
+    "description": "Chocolate cake for chocolate lovers",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "250" },
+      { "id": 2, "name": "fat", "amount": "96g" },
+      { "id": 3, "name": "cholesterol", "amount": "29mg" },
+      { "id": 4, "name": "sodium", "amount": "145mg" },
+      { "id": 5, "name": "protein", "amount": "7g" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Chia pudding",
+    "category": "desserts",
+    "photo": "chia.jpg",
+    "description": "Healthy chia pudding perfect for breakfast. Topped with yougurt and blackberries.",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "220" },
+      { "id": 2, "name": "fat", "amount": "92g" },
+      { "id": 3, "name": "cholesterol", "amount": "24mg" },
+      { "id": 4, "name": "sodium", "amount": "123mg" },
+      { "id": 5, "name": "protein", "amount": "6g" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cranberry pie",
+    "category": "desserts",
+    "photo": "cranberry.jpg",
+    "description": "Forest cranberry pie with vanilla powder",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "190" },
+      { "id": 2, "name": "fat", "amount": "89g" },
+      { "id": 3, "name": "cholesterol", "amount": "12mg" },
+      { "id": 4, "name": "sodium", "amount": "367mg" },
+      { "id": 5, "name": "protein", "amount": "5g" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Ice-cream",
+    "category": "desserts",
+    "photo": "ice-cream.jpg",
+    "description": "House made ice-cream based on oat cream",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "180" },
+      { "id": 2, "name": "fat", "amount": "79g" },
+      { "id": 3, "name": "cholesterol", "amount": "52mg" },
+      { "id": 4, "name": "sodium", "amount": "345mg" },
+      { "id": 5, "name": "protein", "amount": "6g" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pudding",
+    "category": "desserts",
+    "photo": "pudding.jpg",
+    "description": "A perfect pudding with fresh mangos on top",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "240" },
+      { "id": 2, "name": "fat", "amount": "69g" },
+      { "id": 3, "name": "cholesterol", "amount": "67mg" },
+      { "id": 4, "name": "sodium", "amount": "123mg" },
+      { "id": 5, "name": "protein", "amount": "18g" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Strawberry dessert",
+    "category": "desserts",
+    "photo": "strawberry.jpg",
+    "description": "It's never too many strawberries! We picked them in our backyard.",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "130" },
+      { "id": 2, "name": "fat", "amount": "59g" },
+      { "id": 3, "name": "cholesterol", "amount": "54mg" },
+      { "id": 4, "name": "sodium", "amount": "78mg" },
+      { "id": 5, "name": "protein", "amount": "28g" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Waffles",
+    "category": "desserts",
+    "photo": "waffles.jpg",
+    "description": "Every day is a waffle day! The waffle maker we use is our grandpa's, so it is even tastier! Fresh berries on top and our own honey.",
+    "ingredients": ["sugar", "oats", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "210" },
+      { "id": 2, "name": "fat", "amount": "69g" },
+      { "id": 3, "name": "cholesterol", "amount": "45mg" },
+      { "id": 4, "name": "sodium", "amount": "56mg" },
+      { "id": 5, "name": "protein", "amount": "5g" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Berry Soda",
+    "category": "drinks",
+    "photo": "berry-soda.jpg",
+    "description": "Try our house soda with forest berries flavour on a hot summer day! You won't be dissappointed!",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "260" },
+      { "id": 2, "name": "fat", "amount": "29g" },
+      { "id": 3, "name": "cholesterol", "amount": "26mg" },
+      { "id": 4, "name": "sodium", "amount": "45mg" },
+      { "id": 5, "name": "protein", "amount": "4g" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Cocktail",
+    "category": "drinks",
+    "photo": "cocktail.jpg",
+    "description": "A fancy cocktail for an afternoon date - will make you look sophisticated, but it is also super tasty!",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "250" },
+      { "id": 2, "name": "fat", "amount": "59g" },
+      { "id": 3, "name": "cholesterol", "amount": "28mg" },
+      { "id": 4, "name": "sodium", "amount": "58mg" },
+      { "id": 5, "name": "protein", "amount": "7g" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Coffee",
+    "category": "drinks",
+    "photo": "coffee.jpg",
+    "description": "Homebrew coffee, served with ice and almond milk. Less acidic than average coffee.",
+    "ingredients": ["almond milk", "ice", "water", "coffee"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "450" },
+      { "id": 2, "name": "fat", "amount": "39g" },
+      { "id": 3, "name": "cholesterol", "amount": "29mg" },
+      { "id": 4, "name": "sodium", "amount": "245mg" },
+      { "id": 5, "name": "protein", "amount": "3g" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Orange soda",
+    "category": "drinks",
+    "photo": "orange-soda.jpg",
+    "description": "House made soda with orange flavour to drink here or on the go. Can recycle the bottle later at any station and get back 1kr!",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "1300" },
+      { "id": 2, "name": "fat", "amount": "29g" },
+      { "id": 3, "name": "cholesterol", "amount": "34mg" },
+      { "id": 4, "name": "sodium", "amount": "456mg" },
+      { "id": 5, "name": "protein", "amount": "5g" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Smoothie",
+    "category": "drinks",
+    "photo": "smoothie.jpg",
+    "description": "A fresh and rich with berries smoothie helps with the digestion, your stomach will be happy!",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "1200" },
+      { "id": 2, "name": "fat", "amount": "39g" },
+      { "id": 3, "name": "cholesterol", "amount": "35mg" },
+      { "id": 4, "name": "sodium", "amount": "538mg" },
+      { "id": 5, "name": "protein", "amount": "18g" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Tea",
+    "category": "drinks",
+    "photo": "tea.jpg",
+    "description": "Choose between black or green, hot or cold! Because we are tea lovers and like it all year around.",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "400" },
+      { "id": 2, "name": "fat", "amount": "19g" },
+      { "id": 3, "name": "cholesterol", "amount": "45mg" },
+      { "id": 4, "name": "sodium", "amount": "355mg" },
+      { "id": 5, "name": "protein", "amount": "6g" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Watermelon drink",
+    "category": "drinks",
+    "photo": "watermelon.jpg",
+    "description": "Very refreshing drink after a long hot day. If you need to chill for real!",
+    "ingredients": ["sugar", "ice", "water", "fruits"],
+    "nutrition": [
+      { "id": 1, "name": "calories", "amount": "300" },
+      { "id": 2, "name": "fat", "amount": "29g" },
+      { "id": 3, "name": "cholesterol", "amount": "27mg" },
+      { "id": 4, "name": "sodium", "amount": "63mg" },
+      { "id": 5, "name": "protein", "amount": "10g" }
+    ]
+  }
 ]
