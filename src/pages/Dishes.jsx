@@ -1,0 +1,17 @@
+import ProductCard from "../pages/ProductCard";
+import JSONFood from "../data/food.json";
+import DishPhoto from "../assets/pictures/menu/dishes.jpg";
+
+export default function Dishes(){
+    const FoodList = JSONFood.filter((item) => item.category === "dishes").map((item) => <ProductCard key={item.id} item={item}/>)
+    return(
+        <div>
+            <div>
+                <img className="content-header" src={DishPhoto} alt="soup"/>
+            </div>
+            <h1>Dishes</h1>
+            <p>All our main course dishes are plant based, picked carefully and we change the menu seasonally. We grow our own vegetables and they are ecological with no added chemicals. You will understand the difference between store bought veggies and homegrown ones by trying a meal from this section!</p>
+            {FoodList}
+        </div>
+    )
+}

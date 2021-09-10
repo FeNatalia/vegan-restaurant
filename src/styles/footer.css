@@ -1,0 +1,31 @@
+.footer{
+    width: 100vw;
+    height: 80px;
+    background: var(--color-green);
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    bottom: 0;
+    padding-top: var(--space-medium);
+    padding-bottom: var(--space-medium);
+}
+
+.footer img {
+    width: 30px;
+    height: auto;
+}
+
+.footer a {
+    font-size: 12px;
+    margin-right: var(--space-small);
+    margin-left: var(--space-small);
+    text-decoration: none;
+}
+
+.footer p{
+    font-size: 10px;
+    margin: 0;
+}
