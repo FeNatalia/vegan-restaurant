@@ -29,3 +29,27 @@
   font-size: 10px;
   margin: 0;
 }
+
+/*Desktop queries*/
+@media (min-width: 750px) {
+  .footer {
+    width: 100vw;
+    height: 120px;
+  }
+
+  .footer img {
+    width: 50px;
+    height: auto;
+  }
+
+  .footer a {
+    font-size: 12px;
+    margin-right: var(--space-medium);
+    margin-left: var(--space-medium);
+  }
+
+  .footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
