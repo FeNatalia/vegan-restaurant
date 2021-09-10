@@ -22,3 +22,20 @@
   text-decoration: none;
   color: #fff;
 }
+
+/*Desktop queries*/
+@media (min-width: 750px) {
+  .navigation {
+    height: 120px;
+  }
+  .navigation img {
+    width: 100px;
+    height: auto;
+  }
+
+  .navigation a {
+    font-size: 16px;
+    margin: 12px;
+    color: #fff;
+  }
+}

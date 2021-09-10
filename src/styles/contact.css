@@ -41,3 +41,29 @@
 .info section {
   margin-bottom: var(--space-bigger);
 }
+
+/*Desktop queries*/
+@media (min-width: 750px) {
+.info{
+  width: 300px;
+  margin: var(--space-bigger);
+}
+
+.contact-form{
+  width: 300px;
+  margin: var(--space-bigger);
+}
+
+.contact-content{
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact-map{
+  max-width: 600px;
+}
+.contact-map img{
+  width: 600px;
+}
+
+}

@@ -78,3 +78,17 @@ th {
   text-align: left;
   padding: 8px;
 }
+
+/*Desktop queries*/
+@media (min-width: 750px) {
+  .product-preview {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+  }
+
+  .product-preview img {
+    width: 400px;
+    height: auto;
+  }
+}
