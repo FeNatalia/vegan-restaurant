@@ -5,8 +5,8 @@ import FacebookLogo from "../assets/icons/facebook.png";
 
 export default function Footer() {
     return (
-    <footer class="footer">
-        <span class="social-media">
+    <footer className="footer">
+        <span className="social-media">
         <a href="mailto:info@fromfarmtotable.se" target="_blank" rel="noreferrer"><img src={EmailLogo} alt="email logo"/></a>
         <a href="https://www.instagram.com" target="_blank" rel="noreferrer"><img src={InstagramLogo} alt="Instagram logo"/></a>
         <a href="https://www.facebook.com" target="_blank" rel="noreferrer"><img src={FacebookLogo} alt="Facebook logo"/></a>

@@ -1,7 +1,7 @@
 //NPM package
 import { Link } from "react-router-dom";
 //Project files
-import Logo from "../assets/icons/logo.png";
+import Logo from "../assets/icons/Logo.png";
 
 export default function Navigation(){
     return(

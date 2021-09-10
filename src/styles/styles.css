@@ -1,6 +1,7 @@
 @import "./variables.css";
 @import "./shared.css";
 
+@import "./content.css";
 @import "./home.css";
 @import "./nav.css";
 @import "./footer.css";

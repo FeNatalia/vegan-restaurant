@@ -1,0 +1,22 @@
+/*Shared header style*/
+.content-header{
+    margin-top: 78px;
+    width: 100vw;
+}
+
+.product-preview img{
+    max-width: 300px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+td, th {
+    width: 150px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  

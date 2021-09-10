@@ -5,7 +5,7 @@ import RestaurantMap from "../assets/pictures/restaurant-map.jpg";
 export default function Contact(){
     return(
         <div className="contact">
-            <img className="contact-hero" src={ContactPhoto} alt="a young woman and nature"/>
+            <img className="content-header" src={ContactPhoto} alt="a young woman and nature"/>
             <h1>Contact Us</h1>
             <div className="contact-content">
                 <div className="info">

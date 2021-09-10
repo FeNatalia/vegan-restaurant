@@ -8,8 +8,9 @@ import Dishes from "./pages/Dishes";
 import Desserts from "./pages/Desserts";
 import Drinks from "./pages/Drinks";
 import Contact from "./pages/Contact";
-
 import "./styles/styles.css";
+import Product from "./pages/Product";
+
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route component={Desserts} path="/desserts"/>
         <Route component={Drinks} path="/drinks"/>
         <Route component={Contact} path="/contact"/>
+        <Route exact path="/:id" component={Product}/>
       </Switch>
       <Footer/>
       </BrowserRouter>

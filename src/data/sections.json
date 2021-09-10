@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Dishes",
+        "category" : "dishes",
+        "photo": "dishes.jpg",
+        "description": "All our main course dishes are plant based, picked carefully and we change the menu seasonally. We grow our own vegetables and they are ecological with no added chemicals. You will understand the difference between store bought veggies and homegrown ones by trying a meal from this section!"
+    },
+
+    {
+        "id": 2,
+        "title": "Desserts",
+        "category": "desserts",
+        "photo": "desserts.jpg",
+        "description": "We have a variety of desserts inspired by country side recipes. You can find desserts with wild berries or baked items just like your grandma makes. We think that the beauty is in the simplicity! Try and you will know what we mean."
+    },
+
+    {
+        "id": 3,
+        "title": "Drinks",
+        "category": "drinks",
+        "photo": "drinks.jpg",
+        "description": "Here you can find a drink for any occasion. Thirsty? Try our house soda. Need some kick? A home brew will help you. Feeling anxiuos? Handpicked herb tea is there for you. Into fruits? Fresh smoothies are perfect."
+    }
+]
