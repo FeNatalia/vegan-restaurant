@@ -1,5 +1,5 @@
 //Project files
-import ProductCard from "../pages/ProductCard";
+import ProductCard from "../components/ProductCard";
 import JSONFood from "../data/food.json";
 import DishPhoto from "../assets/pictures/menu/dishes.jpg";
 

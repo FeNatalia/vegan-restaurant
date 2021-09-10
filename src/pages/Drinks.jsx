@@ -1,6 +1,6 @@
 //Project files
 import DrinksPhoto from "../assets/pictures/menu/drinks.jpg";
-import ProductCard from "./ProductCard";
+import ProductCard from "../components/ProductCard";
 import JSONFood from "../data/food.json";
 
 export default function Drinks() {
