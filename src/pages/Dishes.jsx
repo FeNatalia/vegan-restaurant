@@ -5,9 +5,9 @@ import DishPhoto from "../assets/pictures/menu/dishes.jpg";
 
 export default function Dishes() {
   //Constants
-  const FoodList = JSONFood.filter(
-    (item) => item.category === "dishes"
-  ).map((item) => <ProductCard key={item.id} item={item} />);
+  const FoodList = JSONFood.filter((item) => item.category === "dishes").map(
+    (item) => <ProductCard key={item.id} item={item} />
+  );
   return (
     <div className="content">
       <div className="header-text">

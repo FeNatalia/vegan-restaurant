@@ -7,6 +7,8 @@ export default function Desserts() {
   const DessertsList = JSONFood.filter(
     (item) => item.category === "desserts"
   ).map((item) => <ProductCard key={item.id} item={item} />);
+
+  // add space
   return (
     <div className="content">
       <img className="content-header" src={DessertPhoto} alt="dessert" />

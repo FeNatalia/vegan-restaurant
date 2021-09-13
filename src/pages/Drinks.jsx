@@ -4,10 +4,17 @@ import ProductCard from "../components/ProductCard";
 import JSONFood from "../data/food.json";
 
 export default function Drinks() {
-  //Constants  
-  const DrinksList = JSONFood.filter(
-    (item) => item.category === "drinks"
-  ).map((item) => <ProductCard key={item.id} item={item} />);
+  //Constants
+  // this can be 2 properties to avoid the messy code
+  const category = JSONFood.filter((item) => item.category === "drinks");
+  const Drinks = category.map((item) => (
+    <ProductCard key={item.id} item={item} />
+  ));
+
+  const DrinksList = JSONFood.filter((item) => item.category === "drinks").map(
+    (item) => <ProductCard key={item.id} item={item} />
+  );
+
   return (
     <div className="content">
       <div className="header-text">
@@ -20,7 +27,7 @@ export default function Drinks() {
           perfect.
         </p>
       </div>
-      <div className="content-list">{DrinksList}</div>
+      <div className="content-list">{Drinks}</div>
     </div>
   );
 }

@@ -6,6 +6,7 @@ export default function SectionCard({ sectionInfo }) {
   const { category, title, description, photo } = sectionInfo;
   const photoObject = require(`../assets/pictures/menu/${photo}`);
   const photoURL = photoObject.default;
+
   return (
     <section className="section-card">
       <div className="card-preview">

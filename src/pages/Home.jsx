@@ -8,6 +8,7 @@ export default function Home() {
   const SectionsList = JSONSections.map((item) => (
     <SectionCard key={item.id} sectionInfo={item} />
   ));
+
   return (
     <div>
       <section className="home-main">

@@ -2,6 +2,8 @@
 import ContactPhoto from "../assets/pictures/contact-photo.jpg";
 import RestaurantMap from "../assets/pictures/restaurant-map.jpg";
 
+// this needs refactor, even if it does not pass the 50 lines
+// DRY -1
 export default function Contact() {
   return (
     <div className="contact">

@@ -24,6 +24,9 @@ export default function Product({ match }) {
         <h3>Ingredients</h3>
         <p>{Ingredients}</p>
         <h3>Nutrition</h3>
+
+        {/* The nutrition info is outside the table -1 */}
+        {/* check out the HTML tags thead and tbody for more info */}
         <table>
           <tr>
             <th>Name</th>

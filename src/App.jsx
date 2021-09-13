@@ -18,10 +18,13 @@ export default function App() {
         <Navigation />
         <Switch>
           <Route component={Home} path="/" exact />
+          {/* for a small project is ok to hardcode dishes, deserts, etc */}
+          {/* for bigger ones, it should be category/:id */}
           <Route component={Dishes} path="/dishes" />
           <Route component={Desserts} path="/desserts" />
           <Route component={Drinks} path="/drinks" />
           <Route component={Contact} path="/contact" />
+          {/* to avoid bugs, this should be /products/:id */}
           <Route exact path="/:id" component={Product} />
         </Switch>
         <Footer />
