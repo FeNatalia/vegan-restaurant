@@ -79,6 +79,11 @@
 
 /*Desktop queries*/
 @media (min-width: 750px) {
+  .section-card:nth-child(even) > .card-info {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
   .section-card {
     width: 100vw;
     display: grid;
@@ -86,11 +91,5 @@
   }
   .section-card img {
     width: 400px;
-  }
-  .card-preview {
-    border: 1px solid gray;
-  }
-  .card-info {
-    border: 1px solid gray;
   }
 }
