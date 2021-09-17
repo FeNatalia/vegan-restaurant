@@ -15,7 +15,7 @@ export default function ProductCard({ item }) {
       <div className="product-text">
         <h3>{title}</h3>
         <p>{description}</p>
-        <Link to={`/products/${id}`}>
+        <Link to={`/${id}`}>
           <button className="button-view">View details</button>
         </Link>
       </div>

@@ -22,7 +22,7 @@ export default function App() {
           <Route component={Desserts} path="/desserts" />
           <Route component={Drinks} path="/drinks" />
           <Route component={Contact} path="/contact" />
-          <Route exact path="/products/:id" component={Product} />
+          <Route exact path="/:id" component={Product} />
         </Switch>
         <Footer />
       </BrowserRouter>
