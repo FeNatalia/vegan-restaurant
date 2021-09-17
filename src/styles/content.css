@@ -69,12 +69,20 @@
 table {
   border-collapse: collapse;
 }
+.product-table h3 {
+  border-bottom: 4px solid black;
+}
+.table-header {
+  border-bottom: 2px solid black;
+}
+
+.table-content {
+  border-bottom: 2px dotted gray;
+}
 
 td,
 th {
   width: 130px;
-  border: 1px solid var(--color-green);
-  background-color: var(--color-light-green);
   text-align: left;
   padding: 8px;
 }
@@ -87,8 +95,21 @@ th {
     width: 700px;
   }
 
+  .header-text p {
+    max-width: 750px;
+  }
+
+  .product-image {
+    display: flex;
+    object-fit: cover;
+  }
   .product-preview img {
     width: 400px;
     height: auto;
+  }
+
+  .content-header {
+    height: 90%;
+    object-fit: cover;
   }
 }

@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import ContactPhoto from "../assets/pictures/contact-photo.jpg";
 import RestaurantMap from "../assets/pictures/restaurant-map.jpg";
 

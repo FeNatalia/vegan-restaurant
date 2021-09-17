@@ -1,10 +1,10 @@
-//Project files
+// Project files
 import DrinksPhoto from "../assets/pictures/menu/drinks.jpg";
 import ProductCard from "../components/ProductCard";
 import JSONFood from "../data/food.json";
 
 export default function Drinks() {
-  //Constants  
+  // List of drinks
   const DrinksList = JSONFood.filter(
     (item) => item.category === "drinks"
   ).map((item) => <ProductCard key={item.id} item={item} />);

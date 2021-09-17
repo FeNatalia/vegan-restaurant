@@ -55,12 +55,10 @@
 .card-info h3 {
   margin: 0;
 }
+
 .section-card img {
-  border-radius: 12px;
-  width: 300px;
-  height: auto;
-  padding-top: var(--space-medium);
-  padding-bottom: var(--space-medium);
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .section-desserts img {
@@ -77,20 +75,49 @@
   font-weight: bold;
 }
 
-/*Desktop queries*/
+/*Laptop queries*/
 @media (min-width: 750px) {
+  .section-card:nth-child(even) > .card-info {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .card-preview {
+    display: flex;
+    object-fit: cover;
+  }
+
+  .card-info {
+    display: grid;
+    padding: var(--space-small);
+    justify-content: center;
+    align-items: center;
+  }
+
   .section-card {
+    height: 400px;
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .section-card img {
-    width: 400px;
+}
+
+/*Desktop queries*/
+@media (min-width: 1040px) {
+  .section-card:nth-child(even) > .card-info {
+    grid-column: 1;
+    grid-row: 1;
   }
-  .card-preview {
-    border: 1px solid gray;
+
+  .section-card {
+    width: 1040px;
   }
+
   .card-info {
-    border: 1px solid gray;
+    padding: var(--space-medium);
+  }
+
+  .home-sections {
+    background-color: var(--color-yellow);
   }
 }

@@ -1,4 +1,4 @@
-//Project files
+// Project files
 import EmailLogo from "../assets/icons/email.png";
 import InstagramLogo from "../assets/icons/instagram.png";
 import FacebookLogo from "../assets/icons/facebook.png";
