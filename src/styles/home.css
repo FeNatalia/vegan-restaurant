@@ -82,7 +82,7 @@
     grid-row: 1;
   }
 
-  .card-preview{
+  .card-preview {
     display: flex;
     object-fit: cover;
   }
@@ -120,5 +120,4 @@
   .home-sections {
     background-color: var(--color-yellow);
   }
-
 }

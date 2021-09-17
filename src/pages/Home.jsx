@@ -1,10 +1,9 @@
-//Project files
-//Project files
+// Project files
 import JSONSections from "../data/sections.json";
 import SectionCard from "../components/SectionCard";
 
 export default function Home() {
-  //Constants
+  // List of menu sections
   const SectionsList = JSONSections.map((item) => (
     <SectionCard key={item.id} sectionInfo={item} />
   ));

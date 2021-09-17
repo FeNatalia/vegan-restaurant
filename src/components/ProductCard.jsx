@@ -1,8 +1,8 @@
-//NPM Package
+// NPM Package
 import { Link } from "react-router-dom";
 
 export default function ProductCard({ item }) {
-  //Constants
+  // Constants
   const { id, photo, title, description } = item;
   const photoObject = require(`../assets/pictures/menu/${photo}`);
   const photoURL = photoObject.default;
@@ -15,7 +15,7 @@ export default function ProductCard({ item }) {
       <div className="product-text">
         <h3>{title}</h3>
         <p>{description}</p>
-        <Link to={`/${id}`}>
+        <Link to={`/products/${id}`}>
           <button className="button-view">View details</button>
         </Link>
       </div>

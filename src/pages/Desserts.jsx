@@ -1,9 +1,10 @@
-//Project files
+// Project files
 import DessertPhoto from "../assets/pictures/menu/desserts.jpg";
 import ProductCard from "../components/ProductCard";
 import JSONFood from "../data/food.json";
 
 export default function Desserts() {
+  // List of desserts
   const DessertsList = JSONFood.filter(
     (item) => item.category === "desserts"
   ).map((item) => <ProductCard key={item.id} item={item} />);
