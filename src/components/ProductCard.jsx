@@ -9,7 +9,9 @@ export default function ProductCard({ item }) {
 
   return (
     <div className="product-preview">
-      <img src={photoURL} alt={title} />
+      <div className="product-image">
+        <img src={photoURL} alt={title} />
+      </div>
       <div className="product-text">
         <h3>{title}</h3>
         <p>{description}</p>

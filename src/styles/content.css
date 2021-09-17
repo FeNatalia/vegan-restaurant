@@ -87,8 +87,21 @@ th {
     width: 700px;
   }
 
+  .header-text p{
+    max-width: 750px;
+  }
+
+  .product-image{
+    display: flex;
+    object-fit: cover;
+  }
   .product-preview img {
     width: 400px;
     height: auto;
+  }
+
+  .content-header {
+    height: 90%;
+    object-fit: cover;
   }
 }
