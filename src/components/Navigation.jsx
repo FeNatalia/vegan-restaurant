@@ -15,7 +15,7 @@ export default function Navigation() {
         />
       </Link>
       <Link to="/drinks">Drinks</Link>
-      <Link to="Contact">Contact</Link>
+      <Link to="/contact">Contact</Link>
     </nav>
   );
 }
