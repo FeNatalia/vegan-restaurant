@@ -41,4 +41,4 @@ https://docs.google.com/spreadsheets/d/1y2X4VQN1Z8oxmMVLGwaRjTnHU6r4WoF7/edit?us
 
 ## Link
 
-Portfolio landing page is hosted on: https://fromfarm-totable.web.app/dishes
+Portfolio landing page is hosted on: https://fromfarm-totable.web.app/
